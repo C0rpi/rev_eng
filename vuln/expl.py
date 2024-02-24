@@ -1,4 +1,4 @@
-from pwn import p64,gdb,process, shellcraft, ELF
+from pwn import p64,gdb,process
 
 path = './vuln/vuln'
 
