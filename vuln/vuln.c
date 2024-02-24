@@ -6,7 +6,8 @@ copy(const char *str)
 {
 	char buf[256]; 
 	strcpy(buf, str); 
-	printf("(%zd) %s\n", strlen(str), buf);
+	printf("%p\n",buf);
+	//printf("(%zd) %s\n", strlen(str), buf);
 }
 
 /* entry point */
